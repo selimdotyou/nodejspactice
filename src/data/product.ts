@@ -1,6 +1,6 @@
 import type { IProduct } from "../types/product.js";
 
-let product: IProduct[] = [
+export const products: IProduct[] = [
     {
         id: 1,
         name: "Product 1",
